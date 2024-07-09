@@ -1,6 +1,6 @@
 package com.danil.data.mappers
 
-import com.danil.domain.Film
+import com.danil.domain.model.Film
 import com.danil.network.FilmResponseDTO
 
 class FilmResponseToListFilms: Mapper<FilmResponseDTO, List<Film>> {

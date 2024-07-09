@@ -3,27 +3,21 @@ package com.danil.data.repositories_impl
 import android.content.Context
 import androidx.room.Room
 import com.danil.data.data_base.FilmDatabase
-import com.danil.data.data_base.FilmsDao
 import com.danil.data.mappers.FilmResponseToListFilms
 import com.danil.data.network.FilmsNetworkDataSource
-import com.danil.domain.Film
+import com.danil.domain.model.Film
 import com.danil.domain.repositories.FilmsRepository
-import dagger.Binds
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
-import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
-import javax.inject.Singleton
 
 class FilmsRepositoryImpl @Inject constructor(
     private val filmsNetworkDataSource: FilmsNetworkDataSource,

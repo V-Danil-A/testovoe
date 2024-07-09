@@ -4,7 +4,7 @@ import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.danil.domain.Film
+import com.danil.domain.model.Film
 import com.danil.feature_films.databinding.ItemViewFilmBinding
 
 class FilmsAdapter (

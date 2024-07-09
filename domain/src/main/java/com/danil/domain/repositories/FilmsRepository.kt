@@ -1,6 +1,6 @@
 package com.danil.domain.repositories
 
-import com.danil.domain.Film
+import com.danil.domain.model.Film
 import kotlinx.coroutines.flow.Flow
 
 interface FilmsRepository {

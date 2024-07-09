@@ -1,4 +1,4 @@
-package com.danil.domain
+package com.danil.domain.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

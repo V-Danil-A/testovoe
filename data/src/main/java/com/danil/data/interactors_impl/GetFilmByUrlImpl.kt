@@ -1,6 +1,6 @@
 package com.danil.data.interactors_impl
 
-import com.danil.domain.Film
+import com.danil.domain.model.Film
 import com.danil.domain.interactors.GetFilmByUrl
 import com.danil.domain.repositories.FilmsRepository
 import javax.inject.Inject

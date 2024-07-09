@@ -4,7 +4,7 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.danil.domain.Film
+import com.danil.domain.model.Film
 import kotlinx.coroutines.flow.Flow
 
 @Dao

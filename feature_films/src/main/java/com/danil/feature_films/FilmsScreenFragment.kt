@@ -10,7 +10,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
-import com.danil.domain.Film
+import com.danil.domain.model.Film
 import com.danil.feature_films.databinding.FragmentFilmsScreenBinding
 import com.danil.navigation.FilmsNavigation
 import dagger.hilt.android.AndroidEntryPoint

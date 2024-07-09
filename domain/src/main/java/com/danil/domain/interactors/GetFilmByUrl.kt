@@ -1,6 +1,6 @@
 package com.danil.domain.interactors
 
-import com.danil.domain.Film
+import com.danil.domain.model.Film
 import com.danil.domain.usecase.UseCase
 
 interface GetFilmByUrl: UseCase<Film, String> {

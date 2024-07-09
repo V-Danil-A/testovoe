@@ -1,6 +1,6 @@
 package com.danil.feature_character
 
-import com.danil.domain.Film
+import com.danil.domain.model.Film
 import com.danil.util.Action
 
 interface CharacterScreenAction: Action {
