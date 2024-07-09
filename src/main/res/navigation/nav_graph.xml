@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/filmsScreenFragment">
+
+
+    <fragment
+        android:id="@+id/filmsScreenFragment"
+        android:name="com.danil.feature_films.FilmsScreenFragment"
+        android:label="FilmsScreenFragment" >
+        <action
+            android:id="@+id/action_filmsScreenFragment_to_characterScreenFragment"
+            app:destination="@id/characterScreenFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/characterScreenFragment"
+        android:name="com.danil.feature_character.CharacterScreenFragment"
+        android:label="CharacterScreenFragment" />
+</navigation>
